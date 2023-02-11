@@ -22,7 +22,7 @@ const Home = () => {
         p={1} 
         bg={"#dadbda"}
         w="100%"
-        m="40px 0 15px 0"
+        m="10px 0 5px 0"
         borderRadius="lg"
         borderWidth="1px">
         <Text fontSize='4xl'>

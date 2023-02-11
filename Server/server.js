@@ -14,8 +14,8 @@ connectDB();
 app.use(express.json());
 
 app.use("/api/user", userRoutes);
-app.use("/api/chat",protect, chatRoutes);
-app.use("/api/message",protect, messageRoutes);
+app.use("/api/chat", chatRoutes);
+app.use("/api/message", messageRoutes);
 
 app.use(notFound);
 app.use(errorHandler);
